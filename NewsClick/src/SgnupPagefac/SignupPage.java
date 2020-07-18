@@ -30,11 +30,25 @@ public SignupPage(WebDriver driver) {
 	@FindBy(id="lastname")
 	WebElement lastname;
 	
-	public void sign_up(String nfirstname, String nlastname) {
+	@FindBy(xpath="//input[@id='email']")
+	WebElement email;
+	
+	@FindBy(xpath="//input[@id='password']")
+	WebElement password;
+	
+	@FindBy(xpath="//input[@id='confirm_password']")
+	WebElement confirm_password;
+	
+	
+	public void sign_up(String nfirstname, String nlastname, String nemail, String npassword, String ncnfPass) {
 	 	
 		signupbutton.click();
 		firstname.sendKeys(nfirstname);
 		lastname.sendKeys(nlastname);
+		email.sendKeys(nemail);
+		password.sendKeys(npassword);
+		confirm_password.sendKeys(ncnfPass);
+		
 	}
 //	public void signup_button() {
 //		signupbutton.click();	

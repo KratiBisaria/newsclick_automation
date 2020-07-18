@@ -21,7 +21,8 @@ public void Newsclick() {
 	
 	SignupPage sign= PageFactory.initElements(driver, SignupPage.class);
 	
-	sign.sign_up("Rahul", "Singh");
+	sign.sign_up("Rahul", "Singh", "rahulsingh@yopmail.com", "Rahul@123", "Rahul@123");
+	
 	
 	//driver.quit();
 }
