@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15838" started-at="2020-07-12T15:17:12Z" finished-at="2020-07-12T15:17:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15838" started-at="2020-07-12T15:17:12Z" finished-at="2020-07-12T15:17:28Z">
+      <class name="SgnupPagefac.Newsclickrun">
+        <test-method status="PASS" signature="Newsclick()[pri:0, instance:SgnupPagefac.Newsclickrun@3ffc5af1]" name="Newsclick" duration-ms="15783" started-at="2020-07-12T20:47:12Z" finished-at="2020-07-12T20:47:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Newsclick -->
+      </class> <!-- SgnupPagefac.Newsclickrun -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
